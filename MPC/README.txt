@@ -26,6 +26,10 @@ ros2 launch scan2cost scan2cost.launch.py 를 실행합니다.
 
 static_transform 은 base_link 와 laser 사이의 tf 관계입니다.
 
+MPC Controller
+Ackermann Steering - Bicycle Model
+Constraints : 후진 불가, Config에 입력된 최대 속도 및 각도, Model Constraints
+
 [To-Do]
 {scan2cost} tf 토픽을 받아와서 자동으로 base_link 와 laser 사이의 관계 파악 (나중에 통합할 때 하나의 config에 합칠때 그냥 불러오도록 해도 됨)
 {ptcld2scan} tf time sync 문제 해결해야함.
