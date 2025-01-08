@@ -21,4 +21,4 @@ static_transform 은 base_link 와 laser 사이의 tf 관계입니다.
 [To-Do]
 {scan2cost} tf 토픽을 받아와서 자동으로 base_link 와 laser 사이의 관계 파악 (나중에 통합할 때 하나의 config에 합칠때 그냥 불러오도록 해도 됨)
 {ptcld2scan} tf time sync 문제 해결해야함.
-{mpc} scan2cost의 값을 사용하여 cmd_vel을 잘 생성하는지 확인 및 시각화 필요.
+{mpc} /local_costmap 값을 OccupancyGrid 메세지로 바꿔야함.
