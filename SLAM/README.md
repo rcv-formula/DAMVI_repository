@@ -45,12 +45,12 @@
    ```
    이때 반드시 imu 코드를 실행한 후 아래 2번으로 넘어가야 한다.
    
-2. Cartographer 매핑을 실행합니다:
+2. Cartographer 매핑을 실행:
    ```bash
    ros2 launch damvi_cartographer Damvi_carto_launch.py
    ```
  
-3. 과도한 회전을 피하면서 DAMVI를 주행합니다.
+3. 과도한 회전을 피하면서 DAMVI를 주행.
 
 ### [rosbag 사용] SLAM 모드
 
