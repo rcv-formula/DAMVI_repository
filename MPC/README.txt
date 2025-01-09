@@ -30,6 +30,10 @@ MPC Controller
 Ackermann Steering - Bicycle Model
 Constraints : 후진 불가, Config에 입력된 최대 속도 및 각도, Model Constraints
 
+ptcld2scan
+input frame 도 반영할 수 있게 변경 필요
+tf time sync 센서간 time 동기화 시켜보기
+
 [To-Do]
 {scan2cost} tf 토픽을 받아와서 자동으로 base_link 와 laser 사이의 관계 파악 (나중에 통합할 때 하나의 config에 합칠때 그냥 불러오도록 해도 됨)
 {ptcld2scan} tf time sync 문제 해결해야함.
