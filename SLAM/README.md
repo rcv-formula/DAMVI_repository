@@ -41,7 +41,7 @@
 1. 필요한 launch 파일을 시작:
    ```bash
    ros2 launch f1tenth_bringup bringup.launch.py
-   ros2 launch imu_stella imu_stella.launch.py
+   ros2 launch stella_ahrs stella_ahrs_launch.py
    ```
    이때 반드시 imu 코드를 실행한 후 아래 2번으로 넘어가야 한다.
    
