@@ -47,7 +47,7 @@
    
 2. Cartographer 매핑을 실행:
    ```bash
-   ros2 launch damvi_cartographer Damvi_carto_launch.py
+   ros2 launch cartographer_ros Damvi_carto_launch.py
    ```
  
 3. 과도한 회전을 피하면서 DAMVI를 주행.
