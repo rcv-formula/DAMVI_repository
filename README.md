@@ -1,2 +1,2 @@
 # DAMVI_repository
-DAMVI(Dynamic Autonomous Mobility for Vmax, from INHA) repository, for RCV Formula
+DAMVI(Dynamic Autonomous Master Vehicle, from INHA) repository, for RCV Formula
